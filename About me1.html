@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>Wan Maisarah Wan Mansor</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body {font-family: "Lato", sans-serif}
+		.mySlides {display: none}
+		h1, p
+		{
+			text-align: center;
+			color: Black;
+		}
+		h2
+		{
+			color;white;
+		}
+		
+	</style>
+	
+	<body>
+
+	<script>
+		function myMS() 
+		{
+			document.getElementById("demo").innerHTML = "Single ^~^";
+		}
+		
+		
+		function myNani() 
+		{
+			  var txt;
+			  var person = prompt("Hello my fellow friend:", "Name");
+			  if (person == null || person == "") {
+				txt = "User not answer.";
+			  } else {
+				txt = "Hello " + person + "! I wish you a good life ^-^";
+			  }
+			  document.getElementById("nani").innerHTML = txt;
+		}
+
+	</script>
+	
+
+		<!-- Navbar -->
+		<div class="w3-top">
+			<div class="w3-bar w3-black w3-card">
+				<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+				<a href="PI.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+				<a href="About me1.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ME</a>
+				<a href="Character1.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PERSONALITY</a>
+				<a href="Family1.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FAMILY</a>
+				<a href="action_page.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+				<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+			</div>
+		</div>
+		
+		<!-- Page content -->
+		<div class="w3-content" style="max-width:2000px;margin-top:46px">
+		
+			<h1><strong>Welcome</strong></h1>
+			<h1>I usually don't talk about me but I will let you read about me</h1>
+			<h1>Tehee >,<</h1>
+			<p id="blue"><img src="./IMAGE/me1.jpg" alt="my picture" style="float:right" width="200px" height="200px"</img></p>
+				<ul>
+					<li><b>NAME :</b>Wan Maisarah Binti Wan Mansor<br/>
+					<small><i>This picture is taken with filter</i></small></li>
+					<li><b>STUDENT ID : </b>2018249346</li>
+					<li><b>CLASS : </b>CS2304B2</li>
+					<li><b>GENDER: </b>Female</li>
+					<li><b>Wanna Know about my <mark>Marital status</mark> ?</b></li>
+					<li id="demo">Married</li>
+						<ul><button type="button" onclick="myMS()">Try it</button></ul>
+					<li><b>REGILION: </b>Islam<i> and i proud with it</i></li>
+					<li><b>HEIGHT: </b>156m<mark> but sometimes i got 153m</mark></li>
+					<li><b>HOME ADDRESS : </b>15-4 PARK Banggol Peradong, 21200 Kuala Terengganu, Terengganu</li>
+					<li><b>AMBITIONS : </b>Voice Actor</li>
+					<li><b>BIRTH DATE: </b>18 December 1999</li>
+					<li><b>BIRTH PLACE: </b>Terengganu Darul Iman</li>
+					<li><b>OCCUPATION: </b>FSKM Uitm student</li>
+					<li><b>EDUCATIONAL BACKGROUND: </b></li>
+						<ul>1. Kolej Matrikulasi Gambang</ul>
+						<ul>2. Sekolah Menengah Sultan Sulaiman</ul>
+						<ul>3. Sekolah Kebangsaan Banggol Peradong</ul>
+					<li><b>SKILLS: </b>Advertisement<i> according to my aunt</i></li>
+					<li><b>MOTTO: </b>Never give up, <mark>Love Yourself and Your Creator</mark></li>
+				</ul>
+			<button onclick="myNani()">Click Me!</button>
+			<h1 id="nani"></h1>
+			<p><b> Matriculation Memories </b> ~ Me with my classmate made this video to reminds us about KMPH ~</p>
+			<video width="600" height="600" controls>
+				<source src="./IMAGE/KMPH.mp4" type="video/mp4">
+			</video>
+		
+		<!-- Image of location/map -->
+		<img src="./IMAGE/fun.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+		<!-- Footer -->
+		<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+				<i class="fa fa-facebook-official w3-hover-opacity"></i>
+				<i class="fa fa-instagram w3-hover-opacity"></i>
+				<i class="fa fa-snapchat w3-hover-opacity"></i>
+				<i class="fa fa-pinterest-p w3-hover-opacity"></i>
+				<i class="fa fa-twitter w3-hover-opacity"></i>
+				<i class="fa fa-linkedin w3-hover-opacity"></i>
+				<p class="w3-medium">Instagram: maisarah_wm</p>
+				<p class="w3-medium">Powered by Kuro Neko</p>
+		</footer>
+		
+	</body>
+</html>
+
